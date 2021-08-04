@@ -1,0 +1,28 @@
+I’m a digital solution architect and coder who is interested in cloud migration and strategy and digital transformation.
+My mission is to enable business to create values for consumers and organization while moving fast without sacrificing quality. In order to succeed with this mission, I believe not only choosing the best technology or approach but also choosing them because it fits for purpose. Besides whatever we choose, it must be flexible enough to evolve so our technology portfolio can adapt to business goals and technology changes. 
+I have 16 years of IT experience with strong and proven engineer and architect skills within small, medium and big sized companies. So far, I’m involved in designing and building various types of applications such as, web, mobile, desktop, distributed systems, microservices, IoT, client side and back-end solutions running on AWS and Azure cloud providers. 
+Last 8 years, I have involved to build/architect large scale systems by creating short- and long term technology road map and make sure to fit business’ long-term goal and strategy. I have strong experience to migrate legacy systems to known cloud providers by using modern architecture approaches. 
+
+
+I advocate on the followings
+
+Evolutionary Design
+
+Cloud Migration and Strategy
+
+Domain Driven Design
+
+APIs 
+
+
+If you fail, fail fast and cheap.
+Stand Up!
+GO, FIGHT and WIN!
+
+Continuous Integration is better than delayed perfection.
+— Mark Twain
+
+
+All  whimsical thoughts are mine not the views of my employer.
+
+python3 -m http.server
