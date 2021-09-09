@@ -1,15 +1,22 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #ffffff;
-  color:rgb(58, 58, 58);
+  background-color: #fffefe;
+  color: #002044;
   margin:5em 0 0 0;
   font-size:16px;
 }
 
 h1 {
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
-  font-weight:600;
-  color: #002044;
+  color: #000;
+}
+
+h3 {
+  
+}
+
+h4 {
+ 
 }
 
 .left-border {
@@ -29,6 +36,7 @@ h1 {
 p {
   font-size:1.0em;
   line-height:1.9em;
+  color:#2e3842;
 }
 
 .highlight {
@@ -40,8 +48,24 @@ p {
   position:absolute;
   background-size: 100% 100%;
 }
-.mission:after {
+.highlight-green:after {
   background-image: url('../images/highlight-green.svg');
+  top:-5%;
+  left:-5%;
+  width:110%;
+  height:110%;
+  z-index:-1;
+}
+.highlight-peach:after {
+  background-image: url('../images/highlight-peach.svg');
+  top:-5%;
+  left:-5%;
+  width:110%;
+  height:110%;
+  z-index:-1;
+}
+.highlight-pink:after {
+  background-image: url('../images/highlight-pink.svg');
   top:-5%;
   left:-5%;
   width:110%;
@@ -52,6 +76,42 @@ p {
 .some-space-below {
   margin-bottom: 0.9em;
 }
+
+.some-more-space-below {
+  margin-bottom: 1.9em;
+}
+
+.some-space-left-right {
+  margin-right: 0.9em;
+  margin-left: 0.9em;
+}
+
+.box {
+  /*box-shadow: 2px 2px 5px 1px rgb(136, 126, 136);*/
+  border-radius: 5px;
+  border:1px solid rgb(226, 226, 226);
+}
+
+.link-box h3, h4{
+  color: #002044;
+}
+
+.link-box:hover{
+  text-decoration: none;
+}
+
+.link-box:hover h3{
+  text-decoration: underline;
+}
+.link-box:hover h4{
+  text-decoration: underline;
+}
+
+.link-box:hover .left-border{
+  border-left: 5px solid #333;
+}
+
+
 
 
 /*

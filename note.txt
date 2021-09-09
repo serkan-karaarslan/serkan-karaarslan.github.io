@@ -26,3 +26,53 @@ Continuous Integration is better than delayed perfection.
 All  whimsical thoughts are mine not the views of my employer.
 
 python3 -m http.server
+
+
+API Driven Design
+  - API discoverability
+  - Consistency across all APIs
+    - Developer experience
+    - Same way authenticate and authorization
+    - Better to have 1 API gateway for all 
+    - OpenAPI
+    - Same way to explain how APIs works, same documentation
+    - Pagination
+    - Error handling, response
+  - Definition of done 
+  - Set the definitions, what is external API, internal API
+  - API design guidelines
+  - Set the quality with API maturity level
+  - Evolvable API without breaking client's application. Do not think version control is the only way of managing change.
+  - 
+
+API as Product
+
+Architecture Success Factors
+
+What does architect do?
+
+Performance Indicators : One of the pillar of AWS well-architected
+
+how to break into monolith - adidas and blu example?
+
+DDD, architecture, being agile 
+
+why do we need digital transformation?
+  deliver values to our consumers as quick as possible so we can get feedback as early as possible and improve it in a short time.
+    - understand your user's journey and break into a pieces that can be managable independently. The approach is domain driven design
+      - Create account
+      - login
+      - managing orders
+      - returning orders
+      - payment
+      - checkout
+      - shipping
+    - If everytime you create a branded content, it needs to be approved by legal. 
+      If that's the case then you have 1 legal person in the team. Team does not necessarily have only technical people.
+
+Architecture and Operating Model goes hand to hand
+
+Working Backward
+
+
+https://techbeacon.com/app-dev-testing/introduction-event-storming-easy-way-achieve-domain-driven-design
