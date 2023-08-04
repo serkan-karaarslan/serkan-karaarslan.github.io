@@ -9,5 +9,4 @@ python3 -m http.server --bind 0.0.0.0 9999
 # In 3.7+ you can specify directory too
 python3 -m http.server --directory /path/to/serve
 
-
-All  whimsical thoughts are mine not the views of my employer.
+They're notes to myself. All  whimsical thoughts are mine not the views of my employer.
