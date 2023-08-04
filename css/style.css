@@ -2,13 +2,19 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #fffefe;
   color: #002044;
-  margin:5em 0 0 0;
+  margin:2rem 0 0 0;
   font-size:16px;
+  
 }
 
 h1 {
   font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
   color: #000;
+}
+
+h3 {
+  text-align:justify;
+  line-height: 1.4em;
 }
 
 .left-border {
@@ -29,10 +35,30 @@ p {
   font-size:1.0em;
   line-height:1.9em;
   color:#2e3842;
+  text-align:justify;
 }
 
 .highlight {
   position:relative;
+}
+
+.linkedin {
+  position:relative;
+  content:"";
+}
+
+.linkedin:after {
+  content:"";
+  position:absolute;
+  background-size: 100% 100%;
+}
+.linkedin-icon:after {
+  background-image: url('../images/linkedin-icon-1.svg');
+  top:-40%;
+  left:-110%;
+  width:150%;
+  height:150%;
+  z-index:-1;
 }
 
 .highlight:after{
@@ -104,6 +130,14 @@ p {
 }
 
 
+.famous_quote {
+  font-family: "Roboto Slab";
+  font-size:2rem;
+}
+
+.famous_quote_box{
+  border-left:5px solid #494949;
+}
 
 
 /*

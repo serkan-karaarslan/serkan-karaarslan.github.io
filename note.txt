@@ -1,80 +1,13 @@
-I’m a digital solution architect and coder who is interested in cloud migration and strategy and digital transformation.
-My mission is to enable business to create values for consumers and organization while moving fast without sacrificing quality. In order to succeed with this mission, I believe not only choosing the best technology or approach but also choosing them because it fits for purpose. Besides whatever we choose, it must be flexible enough to evolve so our technology portfolio can adapt to business goals and technology changes. 
-I have 16 years of IT experience with strong and proven engineer and architect skills within small, medium and big sized companies. So far, I’m involved in designing and building various types of applications such as, web, mobile, desktop, distributed systems, microservices, IoT, client side and back-end solutions running on AWS and Azure cloud providers. 
-Last 8 years, I have involved to build/architect large scale systems by creating short- and long term technology road map and make sure to fit business’ long-term goal and strategy. I have strong experience to migrate legacy systems to known cloud providers by using modern architecture approaches. 
+https://www.devdungeon.com/content/one-line-http-servers
+# Default listen: 0.0.0.0:8000
+# Provides directory listing if no index.html present
+python3 -m http.server
 
+# Specify listen host and port information
+python3 -m http.server --bind 0.0.0.0 9999
 
-I advocate on the followings
-
-Evolutionary Design
-
-Cloud Migration and Strategy
-
-Domain Driven Design
-
-APIs 
-
-
-If you fail, fail fast and cheap.
-Stand Up!
-GO, FIGHT and WIN!
-
-Continuous Integration is better than delayed perfection.
-— Mark Twain
-
-Digital transformation has only 1 
+# In 3.7+ you can specify directory too
+python3 -m http.server --directory /path/to/serve
 
 
 All  whimsical thoughts are mine not the views of my employer.
-
-python3 -m http.server
-
-
-API Driven Design
-  - API discoverability
-  - Consistency across all APIs
-    - Developer experience
-    - Same way authenticate and authorization
-    - Better to have 1 API gateway for all 
-    - OpenAPI
-    - Same way to explain how APIs works, same documentation
-    - Pagination
-    - Error handling, response
-  - Definition of done 
-  - Set the definitions, what is external API, internal API
-  - API design guidelines
-  - Set the quality with API maturity level
-  - Evolvable API without breaking client's application. Do not think version control is the only way of managing change.
-  - 
-
-API as Product
-
-Architecture Success Factors
-
-What does architect do?
-
-Performance Indicators : One of the pillar of AWS well-architected
-
-how to break into monolith - adidas and blu example?
-
-DDD, architecture, being agile 
-
-why do we need digital transformation?
-  deliver values to our consumers as quick as possible so we can get feedback as early as possible and improve it in a short time.
-    - understand your user's journey and break into a pieces that can be managable independently. The approach is domain driven design
-      - Create account
-      - login
-      - managing orders
-      - returning orders
-      - payment
-      - checkout
-      - shipping
-    - If everytime you create a branded content, it needs to be approved by legal. 
-      If that's the case then you have 1 legal person in the team. Team does not necessarily have only technical people.
-
-Architecture and Operating Model goes hand to hand
-
-Working Backward
-
-
-https://techbeacon.com/app-dev-testing/introduction-event-storming-easy-way-achieve-domain-driven-design
